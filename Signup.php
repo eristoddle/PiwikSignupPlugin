@@ -19,9 +19,10 @@ class Piwik_Signup extends Piwik_Plugin
 		$info = array(
 			'name' => 'Signup',
 			'description' => 'Allows users to signup for a piwik account',
-			'author' => 'Maciej Zawadzinski, Clearcode',
-			'author_homepage' => 'http://clearcode.cc/',
-			'version' => '0.1',
+			'author' => 'Stephan Miller',
+			'author_homepage' => 'http://www.stephanmiller.com/',
+			'version' => '0.2',
+			'translationAvailable' => true,
 		);
 		
 		return $info;
